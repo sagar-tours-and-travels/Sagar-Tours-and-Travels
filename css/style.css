@@ -502,8 +502,9 @@ nav a:hover{
     transform: translateY(-15px) scale(1.03);
     border-top: 4px solid var(--primary);
 }
-.why-container{   
-    margin:0 auto;         
+.why-container{  
+	max-width:1200px;  
+    margin:10% auto;         
     display:flex;
     flex-wrap:wrap;
     gap:30px;
@@ -1426,6 +1427,7 @@ flatpickr(timeInput, {
 .flatpickr-next-month:hover svg{
     fill:#FFB400;
 }
+
 
 
 
