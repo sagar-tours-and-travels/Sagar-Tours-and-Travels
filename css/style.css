@@ -205,7 +205,7 @@ nav a:hover{
 .airport-info{
     background: var(--accent);
     color: white;
-    padding:100px 80px;
+    padding:80px 80px;
 }
 
 .airport-box{
@@ -693,11 +693,12 @@ nav a:hover{
 .review-next{ right:-10px; }
 
 .footer{
-    display:flex;
+    display:grid;
     justify-content:space-around;
-    padding:80px 20px;
+    padding:60px 20px;
     color:white;
-
+	grid-template-columns:repeat(4,1fr);
+    gap:25px;
     background: linear-gradient(
         135deg,
         #050816 0%,
@@ -762,11 +763,11 @@ nav a:hover{
 
   .home-hero{ padding:90px 20px; }
   .home-hero h1{ font-size:38px; }
-
+  .airport-box{ text-align:center;}
   .fleet{ padding:70px 20px; }
   .fleet h2{ font-size:36px; }
 
-  .footer{ flex-direction:column; gap:30px; }
+  .footer{grid-template-columns:repeat(2,1fr);}
 }
 
 .section-dark{
@@ -1427,6 +1428,7 @@ flatpickr(timeInput, {
 .flatpickr-next-month:hover svg{
     fill:#FFB400;
 }
+
 
 
 
