@@ -254,7 +254,7 @@ nav a:hover{
 }
 
 .services{
-    padding:90px 20px;
+    padding:60px 20px;
     background: #ffffff;
 }
 
@@ -1427,6 +1427,7 @@ flatpickr(timeInput, {
 .flatpickr-next-month:hover svg{
     fill:#FFB400;
 }
+
 
 
 
