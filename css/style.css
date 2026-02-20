@@ -842,7 +842,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:100px 20px;
+    padding:60px 20px;
 }
 
 
@@ -904,15 +904,15 @@ nav a:hover{
 }
 .section-center-home h1
 {
-     font-size:60px;
+     font-size:50px;
     line-height:1.05;
     color: var(--primary);
 }
 .section-center-home p
 {
 	text-align:justify;
-    margin-top:25px;
-    font-size:17px;
+    margin-top:15px;
+    font-size:14px;
 	margin-right: 50%;
     color: var(--white);
     opacity: 0.8;
@@ -1427,6 +1427,7 @@ flatpickr(timeInput, {
 .flatpickr-next-month:hover svg{
     fill:#FFB400;
 }
+
 
 
 
